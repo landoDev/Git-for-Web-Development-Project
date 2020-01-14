@@ -73,18 +73,32 @@ https://codepen.io/lturner78/pen/BayPpbv
         git push -u orign branch-name
     37. Walk me through Lambda's git flow. 
         fork the repo 
+        add TL/PM to collaborators
         clone the repo - git clone URL 
+        use git checkout -b 'branch-name' to create a branch
         make some changes and ran a git status 
-Then we staged the changes using git add .
-Then we committed the changes using  git commit -m “our message” 
-Then we need to use git push to publish our local commits 
-Now we should be able to see these changes 
+        stage the changes using git add .
+        commit the changes using  git commit -m “our message” 
+        use git push -u branch-name  to publish local commits 
+        open a pull request
+        make your branch the base repo
+        base: master compare: branch-name
+        add TL to reviewers
+        submit
+
+
+
 
 
 Stretch Questions
 
     1. What is the difference between an inline element and a block element?
+         inline elements do not force a line break where block elements do
     2. What happens when an element is positioned absolutely? 
+        it is positioned to the nearest ancestor. Otherwise it is positioned  using the document body. 
     3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        using the flex property
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        <address> <p> <ol> ; <textarea> <span> ; <button> <input>
     5. In your own words, explain the box model. What is the fix for the box model? 
+        the box model is the standard layout for html css. starting from the center there are layers that can be manipulated. The fix is the flex property.
