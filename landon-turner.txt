@@ -79,7 +79,7 @@ https://codepen.io/lturner78/pen/BayPpbv
         make some changes and ran a git status 
         stage the changes using git add .
         commit the changes using  git commit -m “our message” 
-        use git push -u branch-name  to publish local commits 
+        use git push -u origin branch-name  to publish local commits 
         open a pull request
         make your branch the base repo
         base: master compare: branch-name
